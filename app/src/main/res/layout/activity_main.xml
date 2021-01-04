@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        app:srcCompat="@drawable/acca" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="PLEASE CLICK MENU" />
+
+    <TextView
+        android:id="@+id/totalDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="누적 주행거리 : "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tempDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="최근 주행거리 : "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/startCheckSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_layout"
+        android:text="측정시작" />
+
+    <Button
+        android:id="@+id/endCheckSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_layout"
+        android:text="측정종료" />
+
+    <Button
+        android:id="@+id/goDrive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_layout"
+        android:text="주행기록" />
+
+    <Button
+        android:id="@+id/goOiling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_layout"
+        android:text="주유기록" />
+
+    <Button
+        android:id="@+id/goMaintenance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_layout"
+        android:text="차량정비" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/caricoconpng" />
+
+</LinearLayout>
