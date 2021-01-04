@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        String str = "commit test";
 
         startButton = findViewById(R.id.startCheckSpeed);
         endButton = findViewById(R.id.endCheckSpeed);
